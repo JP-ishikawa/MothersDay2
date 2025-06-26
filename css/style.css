@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+/*全体にかかる設定*/
+
+html {
+  scroll-behavior: smooth;
+  font-size: 14px;
+}
+
+/*ミニマルノーマライズド*/
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+/*基本書体の設定*/
+body{
+	font-family: "M PLUS Rounded 1c", sans-serif;
+	font-style: normal;
+	color:#8E8186;/*ピンクがかったグレー*/
+	max-width: 700px;
+}
+
+img{
+	width:100%;
+}
